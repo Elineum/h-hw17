@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1.5fr 5fr 2fr;
+}
+
+.page-head,
+.page-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  background-color: #548fc3;
+}
+
+.shop-wrap {
+  background-color: #548fc3;
+}
+
+.categories {
+  background-color: brown;
+  padding: 30px;
+}
+
+.categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: brown;
+  padding: 10px 0 0 20px;
+}
+
+.categories-item {
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.categories-item:hover {
+  color: white;
+}
+
+.article-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 50px;
+}
+
+.card {
+  min-width: 250px;
+}
+
+.card-shop {
+  cursor: pointer;
+}
+
+.card-img-wrap {
+  max-width: 250px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.card-title {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.card-description {
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+.buy-it {
+  background-color: brown;
+}
+
+.buy-button {
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
